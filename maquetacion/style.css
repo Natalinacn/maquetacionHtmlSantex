@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin-right: 40px;
+}
+
+h1 {
+  margin: 0px 400px;
+  text-align: center;
+}
+
+button.redondo {
+  background-color: white;
+  border: 2px solid #050506;
+  border-radius: 25px;
+  padding: 0px 20px;
+  height: 32px;
+}
+
+#header {
+  border-bottom: 1px solid gray;
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+}
+
+#header-right {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#introduction {
+  padding: 48px;
+}
+
+div#introduction-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.redondo.violeta {
+  margin-left: 14px;
+  color: #6b53f0;
+  border: 2px solid #6b53f0;
+}
+
+.redondo.violeta:hover {
+  background-color: #6b53f0;
+  color: white;
+}
+
+.redondo.negro:hover {
+  background-color: #201b24;
+  color: white;
+}
