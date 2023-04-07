@@ -1,5 +1,6 @@
-body {
+html, body {
   margin: 0;
+  height: 100%;
   font-family: "Inter", sans-serif;
 }
 
@@ -44,6 +45,11 @@ button.redondo {
 
 #header-right img:hover{
   filter: drop-shadow(0 0 0 #9E46FF);
+}
+
+.logo-technology:hover {
+
+  cursor: pointer;
 }
 
 .logo.instagram {
@@ -101,3 +107,27 @@ button:hover{
 
 }
 
+ #mi-footer{
+
+  background-color: #201B24;
+  color: white;
+  display: flex;
+  padding: 140px;
+  align-items: end;
+}
+
+ #mi-footer p{
+
+  font-size: 13px;
+ }
+
+ #mi-footer .numbers{
+
+
+
+}
+
+.numbers h2{
+
+  font-size: 40px;
+}
