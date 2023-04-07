@@ -4,12 +4,18 @@ body {
 }
 
 p {
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
 h1 {
-  margin: 0px 400px;
+  margin: 0px 190px;
   text-align: center;
+  color: #201b24;
+  font-weight: 550;
+}
+
+button{
+font-size: 12px;
 }
 
 button.redondo {
@@ -23,13 +29,33 @@ button.redondo {
 #header {
   border-bottom: 1px solid gray;
   display: flex;
-  padding: 10px 100px;
+  padding: 20px 20px;
   justify-content: space-between;
 }
 
 #header-right {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+#header-right img:hover{
+  filter: drop-shadow(0 0 0 #9E46FF);
+}
+
+.logo.instagram {
+  height: 13px;
+  width: auto;
+}
+
+.logo.linkedin {
+
+  height: 22px;
+  width: auto;
+
 }
 
 #introduction {
@@ -40,6 +66,10 @@ div#introduction-actions {
   display: flex;
   justify-content: center;
   margin-top: 25px;
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 .redondo.violeta {
@@ -57,3 +87,17 @@ div#introduction-actions {
   background-color: #201b24;
   color: white;
 }
+
+#introduction-text h1 {
+
+    font-size: 1em;
+    font-size: 28px;
+}
+
+#header-right p:hover{
+
+  color: #6b53f0;
+  cursor: pointer;
+
+}
+
